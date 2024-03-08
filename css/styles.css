@@ -3,6 +3,59 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Styles for header */
+header {
+	font-family: "Merriweather";
+}
+
 /* Styles for the body */
 
 body {
@@ -14,15 +67,15 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #eabec3;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #edeef3;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #f5dde0;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +89,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #d0637c;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +101,20 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.language-bar {
+	border-color: #d0637c !important;
+}
+
+.language-progress {
+	background-color: #dd868c !important;
+}
+
+.listcolor{
+	color: #dd868c !important;
+}
+
+.headercolor {
+	color: #d0637c !important;
 }
